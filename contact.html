@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script>
+    function thanks() {
+        alert("Thank you for your message!");
+    }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="clear">
+            <div class="name">
+                Contact
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contact">
+                <h1>Contact</h1>
+                <hr>
+                <form name="message" onsubmit="thanks()">
+                    <label for="full-name">Name:</label>
+                    <br>
+                    <input type="text" name="full-name" placeholder="Frida Kahlo">
+                    <br>
+                    <label for="email-address">Email Address:</label>
+                    <br>
+                    <input type="text" name="email-address" placeholder="example@aol.com">
+                    <br>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea placeholder="leave message! and try the sumbit button!" name="message"></textarea>
+                    <br>
+                    <input type="submit" name="submit">
+                </form>
+            </div>
+            <aside>
+                <h3>Connect with Me</h3>
+                <hr>
+                <a href="https://github.com/FlyingUnicornSF"><img src="assets/images/github_icon.png" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/akiyomarukawa"><img src="assets/images/linkedin_icon.png" alt="linkedin">
+                </a>
+                <a href="https://stackoverflow.com/users/8115766/flying-unicorn?tab=profileF"><img src="assets/images/stackoverflow_icon.png" alt="stackoverflow">
+                </a>
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; copyright 2017 Akiyo</p>
+        </footer>
+    </div>    
+</body>
+
+</html>
