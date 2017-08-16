@@ -55,6 +55,7 @@ header {
     width: 100%;
     position: fixed;
     top: 10px;
+    z-index: 2; /*I don't like it, but if I don't do this, portfolio does some funky stuff */
 }
 
 @keyframes spin { 
